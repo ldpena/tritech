@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller = 'sample.Controller'>
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" maxWidth="348.0" minWidth="10.0" prefWidth="231.8" />
       <ColumnConstraints hgrow="SOMETIMES" maxWidth="301.0" minWidth="10.0" prefWidth="167.8" />
@@ -16,8 +16,8 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button alignment="CENTER" mnemonicParsing="false" prefHeight="59.0" prefWidth="134.0" text="Client Portal" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-      <Button alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="134.0" text="Administration Portal" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Button alignment="CENTER" mnemonicParsing="false" prefHeight="59.0" prefWidth="134.0" text="Client Portal" GridPane.halignment="CENTER" GridPane.rowIndex="1" fx:id = "Clientportal"/>
+      <Button alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="134.0" text="Administration Portal" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" fx:id="Adminportal">
          <GridPane.margin>
             <Insets />
          </GridPane.margin></Button>
