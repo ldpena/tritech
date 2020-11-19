@@ -47,8 +47,7 @@ public class Controller implements Initializable {
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(tableViewScene);
         window.show();
-
-
+        
     }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
