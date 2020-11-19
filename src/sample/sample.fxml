@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
 <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <columnConstraints>
@@ -19,8 +16,8 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button fx:id="Clientportal" alignment="CENTER" mnemonicParsing="false" onAction="#changeScreenClient" prefHeight="59.0" prefWidth="134.0" text="Client Portal" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-      <Button fx:id="Adminportal" alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" mnemonicParsing="false" onAction="#changeScreenAdmin" prefHeight="59.0" prefWidth="134.0" text="Administration Portal" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Button fx:id="Clientportal" alignment="CENTER" mnemonicParsing="false" onAction="#changeScreenClient" prefHeight="59.0" prefWidth="162.0" text="Client Portal" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Button fx:id="Adminportal" alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" mnemonicParsing="false" onAction="#changeScreenAdmin" prefHeight="59.0" prefWidth="171.0" text="Administration Portal" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <GridPane.margin>
             <Insets />
          </GridPane.margin></Button>
