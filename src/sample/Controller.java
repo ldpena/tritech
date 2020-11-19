@@ -48,6 +48,7 @@ public class Controller implements Initializable {
         window.setScene(tableViewScene);
         window.show();
 
+
     }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
